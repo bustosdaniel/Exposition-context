@@ -1,0 +1,289 @@
+.container-ciber{
+  border-radius: 10px;
+  margin-bottom: 40px;
+  border: 2px solid #b0adad;
+  padding: 25px;
+}
+
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.container-icon p {
+  margin-left: 10px;
+  border: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.container-ciber-intro{
+  padding: 0px 15px 20px;
+  border-bottom: 2px solid #b0adad;
+}
+
+.container-ciber-intro .ciber-intro-text{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.ciber-content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.ciber-content p{
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.ciber-content-image figure {
+  width: 450px;
+  padding: 0 0 0 10px;
+  margin: 0 auto;
+}
+
+.ciber-content-image figure img{
+  width: 100%;
+}
+
+.ciber-content-data{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 15px 50px;
+  border-bottom: 2px solid #b0adad;
+}
+
+.ciber-data-rp-content,
+.ciber-data-pa-content,
+.ciber-data-ta-content,
+.ciber-data-nc-content{
+  width: 100%;
+}
+
+.ciber-data-pa-content {
+  padding: 0px 15px;
+}
+
+.ciber-data-ryd{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ciber-data-ryd > div{
+  width: 50%;
+  align-self: flex-start;
+}
+
+.ciber-data-ryd{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.data-ryd-image {
+  width: 100%;
+}
+
+.ciber-data-ryd p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.data-ryd-image figure{
+  width: 230px; 
+  height: 200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.data-ryd-image figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.ciber-data-rp-content .data-rp-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ciber-data-pa-content .data-pa-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ciber-data-pa p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ciber-data-pa{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ciber-data-pa > div{
+  width: 50%;
+}
+
+.data-pa-image{
+  width: 50%;
+}
+
+.data-pa-image figure{
+  width: 250px;
+  height: 200px;
+  padding: 0;
+  margin: auto 0;
+}
+
+.data-pa-image figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.ciber-content-tanc{
+  display: flex;
+  flex-direction: row;
+  padding: 50px 15px 30px;
+  border-bottom: 2px solid #b0adad;
+}
+
+.ciber-data-ta{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ciber-data-ta > div{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.data-ta-image figure{
+  width: 290px;
+  height: 230px;
+  padding: 0;
+  margin: 0;
+}
+
+.data-ta-image figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.ciber-data-ta-content .data-ta-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ciber-data-ta > div{
+  margin-right: 50px;
+}
+
+.ciber-data-ta p{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ciber-data-nc-content .data-nc-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.ciber-data-nc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.ciber-data-nc p{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  
+}
+
+.ciber-data-nc > div {
+  width: 40%;
+}
+
+.data-nc-image figure{
+  width: 290px;
+  height: 230px;
+  padding: 0px;
+  margin: 0;
+}
+
+.data-nc-image figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.ciber-content-space{
+  padding: 30px 15px 40px;
+}
+
+.space-text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ciber-content-space .space-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.space-text-content p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.space-image{
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto 0px;
+}
+
+.space-image figure{
+  width: 550px;
+  height: 400px;
+  padding: 0 20px 0;
+  margin: 0;
+}
+
+.space-image figure img{
+  width: 100%;
+  height: 100%;
+}
+
+.space-image-info figure{
+  width: 550px;
+  height: 400px;
+  padding: 0 20px 0;
+  margin: 0;
+}

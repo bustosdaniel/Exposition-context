@@ -1,0 +1,369 @@
+.container-cloud{
+  border-radius: 10px;
+  margin-bottom: 40px;
+  border: 2px solid #b0adad;
+  padding: 25px;
+}
+.container-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.container-icon p {
+  margin-left: 10px;
+  border: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.container-cloud .container-cloud-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+.cloud-intro-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #b0adad;
+  padding: 0px 15px 30px;
+}
+
+.cloud-intro-image p{
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.cloud-intro-image figure{
+  width: 1200px;
+}
+
+.cloud-intro-image figure img{
+  width: 100%;
+}
+
+.cloud-types-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px 15px 20px;
+  border-bottom: 2px solid #b0adad;
+}
+
+.cloud-types-content .cloud-types-image p{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.cloud-types-content .cloud-types-image figure{
+  padding: 0px;
+  margin: 0px 15px 0 0;
+  width: 550px;
+}
+
+.cloud-types-content .cloud-types-image figure img{
+  width: 100%;
+}
+
+.cloud-types-image, .cloud-types-context{
+  width: 50%;
+}
+
+.cloud-types-context{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.cloud-types-public,
+.cloud-types-private,
+.cloud-types-hybrid{
+  margin: 10px 0px;
+}
+
+.cloud-types-public .cloud-public-title{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.cloud-types-public p{
+  font-size: 18px;
+  font-size: 400;
+}
+
+.cloud-types-private .cloud-private-title{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.cloud-types-private p{
+  font-size: 18px;
+  font-size: 400;
+}
+
+.cloud-types-hybrid .cloud-hybrid-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.cloud-types-hybrid p{
+  font-size: 18px;
+  font-size: 400;
+}
+
+.cloud-service-content{
+  padding: 30px 15px 20px;
+  border-bottom: 2px solid #b0adad;
+}
+
+.cloud-service-content .cloud-service-title{
+  font-size: 28px;
+  font-weight: 500;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+
+.cloud-ventajas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cloud-ventajas p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-ventajas figure{
+  width: 550px;
+  padding: 0px;
+  margin: 0px 15px 0 0;
+}
+
+.cloud-ventajas figure img{
+  width: 100%;
+}
+
+.cloud-text-ventajas{
+  margin-left: 30px;
+}
+
+.cloud-text-ventajas .cloud-ventajas-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.cloud-text-ventajas .cloud-desventajas-title {
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.cloud-text-ventajas p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.cloud-service .service-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: end;
+  margin-right: 140px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.service-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.service-content p{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.service-content figure{
+  width: 1600px;
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+.service-content figure img {
+  width: 100%;
+}
+
+.cloud-iaas figure {
+  width: 250px;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
+}
+
+.cloud-iaas figure img{
+  width: 100%;
+}
+
+.cloud-paas figure{
+  width: 250px;
+  padding: 0;
+  margin: 30px auto 0px;
+  background-color: #FFF;
+}
+
+.cloud-paas figure img{
+  width: 100%;
+}
+
+.cloud-saas figure{
+  width: 250px;
+  padding: 30px 0 0 0;
+  margin: 0 auto;
+}
+
+.cloud-saas figure img{
+  width: 100%;
+  background-color: #FFF;
+}
+
+.cloud-iaas-content{
+  padding: 30px 15px 20px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #b0adad;
+}
+
+.cloud-iaas-content .cloud-iaas-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cloud-iaas,
+.cloud-paas,
+.cloud-saas{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cloud-iaas, 
+.cloud-paas,
+.cloud-saas{
+  width: 33%;
+}
+
+.cloud-paas{
+  padding: 0px 10px;
+}
+
+.cloud-iaas p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-paas .cloud-paas-title{
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.cloud-paas p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-saas .cloud-saas-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cloud-saas p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-sys{
+  display: flex;
+  flex-direction: row;
+  padding: 30px 15px;
+}
+
+.cloud-stadistics, 
+.cloud-structure{
+  width: 50%;
+}
+
+.cloud-stadistics{
+  padding-right: 10px;
+}
+
+.cloud-structure{
+  padding-left: 10px;
+}
+
+.cloud-stadistics .stadistics-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cloud-stadistics p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-structure .structure-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.cloud-structure p{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cloud-stadistics figure{
+  width: 350px;
+  padding: 0;
+  margin: 30px auto 0px;
+}
+
+.cloud-stadistics figure img{
+  width: 100%;
+}
+
+.cloud-structure figure{
+  width: 450px;
+  margin: 30px auto 0;
+  padding: 0;
+}
+
+.cloud-structure figure img{
+  width: 100%;
+}
+
+.cloud-stadistics,
+.cloud-structure{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

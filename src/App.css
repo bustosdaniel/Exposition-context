@@ -1,0 +1,308 @@
+#root {
+  max-width: 1280px;
+  padding: 25px 15px;
+  margin: 0 auto;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.expo-header{
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 40px;
+  border: 2px solid #b0adad;
+  padding: 25px;
+}
+
+.container-expo .expo-header p{
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.expo-header .expo-image-ing_ciber figure {
+  width: 200px;
+}
+
+.expo-header .expo-image-ing_ciber figure img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.expo-header .expo-image-software figure {
+  width: 200px;
+}
+
+.expo-header .expo-image-software figure img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.expo-image-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expo-header-video {
+  display: flex;
+  margin: 0 auto;
+  border-radius: 25px;
+  width: 430px;
+  padding: 14px;
+  height: 220px;
+}
+
+.expo-header-video video{
+  width: 100%;
+  border-radius: 25px;
+}
+
+.expo-contain-up, .expo-contain-down{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.expo-contain-down{
+  margin-top: 20px;
+}
+
+.expo-bd, 
+.expo-structure,
+.expo-cloud,
+.expo-redes,
+.expo-ciber,
+.expo-bgd{
+  width: 33%;
+  border: 2px solid #b0adad;
+  padding: 20px;
+}
+
+.expo-redes{
+  border-radius: 0 0 0 10px;
+}
+
+.expo-bgd{
+  border-radius: 0 0 10px 0;
+}
+
+.expo-bd, 
+.expo-structure, 
+.expo-cloud,
+.expo-redes,
+.expo-ciber,
+.expo-bgd{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.expo-bd .expo-bd-title{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.expo-bd p{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-bd figure{
+  width: 150px;
+  margin: 20px auto 0px;
+}
+
+.expo-bd figure img{
+  width: 100%;
+}
+
+.expo-bd button{
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.expo-structure .expo-structure-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.expo-structure p{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-structure figure {
+  width: 190px;
+  margin: 20px auto 0px;
+}
+
+.expo-structure figure img {
+  width: 100%;
+}
+
+.expo-structure button {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.expo-cloud .expo-cloud-title {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.expo-cloud p{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-cloud figure {
+  width: 190px;
+  height: 190px;
+  margin: 20px auto 0px;
+}
+
+.expo-cloud figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.expo-cloud button {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.expo-redes .expo-redes-title{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.expo-redes p{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-redes figure {
+  width: 150px;
+  height: 190px;
+  margin: 20px auto 0px;
+}
+
+.expo-redes figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.expo-redes button {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.expo-ciber .expo-ciber-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.expo-ciber p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-ciber figure {
+  width: 190px;
+  height: 190px;
+  margin: 20px auto 0px;
+}
+
+.expo-ciber figure img {
+  width: 100%;
+  height: 100%;
+}
+
+.expo-ciber button {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.expo-bgd .expo-bgd-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.expo-bgd p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.expo-bgd figure {
+  width: 190px;
+  height: 190px;
+  margin: 20px auto 0px;
+}
+
+.expo-bgd figure img {
+  width: 100%;
+  height: 100%;
+}
+.expo-bgd button {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto 0px;
+  width: 50%;
+}
+
+.button-arrow{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  width: 50%;
+  margin: 10px auto;
+  justify-content: center;
+  border: 1px solid transparent;
+  font-size: 1em;
+  background-color: #FFF;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.button-arrow:hover {
+  border-color: #646cff;
+}
+
+.button-arrow:focus,
+.button-arrow:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.button-arrow p{
+  color: #000;
+}
